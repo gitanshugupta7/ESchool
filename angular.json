@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "eschool"
+    }
+  },
+  "defaultProject": "eschool",
+  "cli": {
+    "analytics": "196fcf48-070d-4a79-8167-ccaf14c7a8c1"
+  }
 }
