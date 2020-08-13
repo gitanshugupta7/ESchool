@@ -6,7 +6,6 @@
     font-family: SF;
     src: url(../../../assets/FontsFree-Net-SFProDisplay-Regular.ttf);
   }
-
   @media only screen and (max-width: 719px) {
     .navOnStart img{
         width: 30px;
@@ -76,12 +75,12 @@
       display: none !important;
     }
   }
-  
   .container{
     max-width: 1440px;
+    background-color: #EFF4FC;
   }
   .bg {
-    background: #eff4fc 0% 0% no-repeat padding-box;
+    background-color: #EFF4FC;
     opacity: 1;
   }
   .std{
@@ -98,10 +97,10 @@
     opacity: 1;
   }
   .classes-sub {
-    margin:3% auto;
+    margin: 3% auto;
     width: 98%;
     height: 35rem;
-    background: #ffffff 0% 0% no-repeat padding-box;
+    background: #ffffff;
     box-shadow: 0px 25px 30px #00000029;
     border-radius: 36px;
     opacity: 1;

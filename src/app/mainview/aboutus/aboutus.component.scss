@@ -1,0 +1,167 @@
+@import url('https://fonts.google.com/specimen/Pacifico#standard-styles');
+
+@media only screen and (max-width: 719px) {
+ 
+}
+@media only screen and (min-width: 720px){
+ 
+  .yifHead{
+    font-size: 3rem !important;
+  }
+  .members{
+    margin-left: 50rem !important;
+  }
+}
+@media only screen and (min-width: 1024px){
+  
+  .members{
+    margin-left: 56rem !important;
+  }
+}
+@media only screen and (min-width: 1281px){
+  
+  .foundation{
+    width: 35rem !important;
+  }
+  .members{
+    width: 35rem !important;
+    margin-left: 50rem !important;
+  }
+  .developers{
+    width: 35rem !important;
+  }
+  .bottom-right{
+    margin-left: 18rem !important;
+  }
+}
+@media only screen and (min-width : 1367){
+  
+  .members{
+    margin-left: 90rem !important;
+  }
+}
+
+
+.container{
+    max-width: 1440px;
+}
+
+.myHead{
+    font-size: 8rem;
+    font-family: Pacifico;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  .border{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    box-shadow: 0px 1px 3px #00000029;
+    opacity: 1;
+    border: 0.5rem solid #707070;
+  }
+
+.foundation{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 30rem;
+    height: 25rem;
+    float: right;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    border-radius: 35px;
+    box-shadow: 0 25px 30px #0000004D;
+  
+    .yifHead{
+      font-family: Pacifico;
+      font-size: 3.75rem;
+    }
+  
+    .found-img{
+      position: relative;
+      margin-top: 2rem;
+      width: 10rem;
+      height: 12rem;
+      align-items: center;
+    }
+  
+    .bottom-right{
+      position: relative;
+      margin-left: 13rem;
+    }
+  }
+  
+  .members{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 30rem;
+    height: 25rem;
+    float: left;
+    margin-top: 18rem;
+    margin-left: 58rem;
+    border-radius: 35px;
+    box-shadow: 0 25px 30px #0000004D;
+  
+    .membersHead{
+      font-family: Pacifico;
+      font-size: 3.75rem;
+    }
+  
+    .member-img{
+        position: relative;
+        margin-top: 1rem;
+        width: 14rem;
+        height: 12rem;
+        align-items: center;
+    }
+  
+    .bottom-right{
+      position: relative;
+      margin-bottom: 1rem;
+      margin-left: 13rem;
+    }
+  }
+  
+  .developers{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 30rem;
+    height: 25rem;
+    float: right;
+    margin-top: 6rem;
+    margin-right: 3rem;
+    border-radius: 35px;
+    box-shadow: 0 25px 30px #0000004D;
+  
+    .developersHead{
+      font-family: Pacifico;
+      font-size: 3.75rem;
+    }
+  
+    .developer-img{
+        position: relative;
+        margin-top: 1rem;
+        width: 14rem;
+        height: 12rem;
+        align-items: center;
+    }
+  
+    .bottom-right{
+      position: relative;
+      margin-bottom: 1rem;
+      margin-left: 13rem;
+    }
+  }
+  
+  .know{
+      padding: 1rem;
+      font-family: SF Pro Display;
+      font-weight: lighter;
+      font-size: 2rem;
+      border: none;
+      border-radius: 2rem;
+      background-color: #FFFFFF;
+      box-shadow: 0px 10px 15px #00000029;
+      opacity: 1;
+      outline: none !important;
+  }
