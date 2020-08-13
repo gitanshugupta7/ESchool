@@ -9,6 +9,8 @@ export class HerosectionComponent implements OnInit {
 
   constructor() { }
 
+  
+
   ngOnInit(): void {
   }
 
