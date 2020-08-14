@@ -6,7 +6,7 @@
     font-family: SF;
     src: url(../../../assets/FontsFree-Net-SFProDisplay-Regular.ttf);
   }
-  @media only screen and (max-width:718px){
+  @media only screen and (max-width:500px){
     .top-left-div {
       margin-top: 4rem;
       margin-left: 0.5%;  
@@ -46,6 +46,47 @@
    
     
   }
+  @media only screen and (min-width:501px){
+    .top-left-div {
+      margin-top: 4rem;
+      margin-left: 0.5%;  
+      position: relative;
+      top: 0px;
+      width: 30%;
+      height: 40rem;
+      background: #ef4e74 0% 0% no-repeat padding-box;
+      box-shadow: 0px 30px 40px #00000029;
+      border-radius: 6rem;
+      opacity: 1;
+    }
+    .mid-div {
+      position: relative;
+      top: -10rem;
+      left: 15%;
+      width: 65%;
+      height: 70rem;
+      background: #6a61c5 0% 0% no-repeat padding-box;
+      box-shadow: 0px 25px 35px #0000004d;
+      border-radius: 6rem;
+      opacity: 1;
+      // z-index: -1;
+    }
+    .bottom-right-div {
+      // margin-right: 9.5%;
+      position: relative;
+      top: -20rem;
+      left: 68%;
+      width: 30%;
+      height: 40rem;
+      background: #ffbd2f 0% 0% no-repeat padding-box;
+      box-shadow: 0px 30px 40px #00000029;
+      border-radius: 6rem;
+      opacity: 1;
+    }
+   
+    
+  }
+ 
   
   @media only screen and (min-width: 719px) {
 
