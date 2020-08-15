@@ -2,7 +2,10 @@
   font-family: Pacifico;
   src: url(../../../assets/Pacifico-Regular.ttf);
 }
-
+@font-face {
+  font-family: SF;
+  src: url(../../../assets/FontsFree-Net-SFProDisplay-Regular.ttf);
+}
 @media only screen and (max-width: 719px) {
  
 }
@@ -59,12 +62,19 @@
   box-shadow: 0 25px 30px #0000002c;
   margin: 5rem auto;
 }
-.imgmembers{
-    /* Full height */
-  height: 100%;
 
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.knowmore{
+    padding: 1rem;
+    font-family: SF Pro Display;
+    font-weight: lighter;
+    font-size: 2rem;
+    float: right;
+    margin-top: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px #00000029;
+    opacity: 1;
+    outline: none !important;
 }
