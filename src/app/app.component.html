@@ -1,10 +1,24 @@
 <!-- <app-mainview></app-mainview> -->
 
 <!-- {{toggleviews}} -->
-<div *ngIf="toggleviews; then rendermain else renderclasses"></div>
+<div *ngIf="toggleviews; then rendermain else renderpages"></div>
 <ng-template #rendermain>
-    <app-mainview (changed)="setToggle()"></app-mainview>
+    <app-mainview (changed)="setToggle($event)"></app-mainview>
 </ng-template>
-<ng-template #renderclasses>
-    <app-course-description (goToHome)="setToggle()"></app-course-description>
+<ng-template #renderpages>
+    <div [ngSwitch]="message">
+        <!-- {{message}} -->
+        <div *ngSwitchCase="'classes'">
+            <app-course-description (goToHome)="setToggle($event)"></app-course-description>
+
+        </div>
+        <div *ngSwitchCase="'interns'">
+            <app-interns (goToHome)="setToggle($event)"></app-interns>
+        </div>
+        <div *ngSwitchCase="'members'">
+            <app-members (goToHome)="setToggle($event)"></app-members>
+
+        </div>
+    </div>
+    
 </ng-template>

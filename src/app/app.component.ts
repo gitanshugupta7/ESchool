@@ -10,12 +10,14 @@ import { MainviewComponent } from './mainview/mainview.component';
 export class AppComponent {
   @ViewChild(MainviewComponent) main:MainviewComponent;
   toggleviews:boolean=true;
+  message:string;
   title = 'eschool';
   ngOnInit(){
     //this.setToggle();
   }
-  setToggle(){
+  setToggle(data){
     this.toggleviews=!this.toggleviews;
+    this.message=data;
   }
 
 }
