@@ -19,6 +19,14 @@
             <app-members (goToHome)="setToggle($event)"></app-members>
 
         </div>
+        <div *ngSwitchCase="'memberpage'">
+            <app-member-page (goToHome)="setToggle($event)"></app-member-page>
+
+        </div>
+        <div *ngSwitchCase="'developers'">
+            <app-developer-page (goToHome)="setToggle($event)"></app-developer-page>
+
+        </div>
     </div>
     
 </ng-template>
