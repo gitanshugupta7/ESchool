@@ -20,6 +20,10 @@
         max-height: 74px;
         
     }
+    .classes-sub {
+      margin: 7rem auto !important;
+      box-shadow: 0px 5px 30px 0px #00000029 !important;
+    }
   }
   @media only screen and (min-width: 720px){
    
@@ -97,7 +101,7 @@
     opacity: 1;
   }
   .classes-sub {
-    margin: 3% auto;
+    margin: 5rem auto;
     width: 98%;
     height: 35rem;
     background: #ffffff;
