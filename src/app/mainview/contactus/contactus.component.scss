@@ -1,6 +1,27 @@
 @import url('https://fonts.google.com/specimen/Pacifico#standard-styles');
 
 @media only screen and (max-width: 719px) {
+
+  .teacher{
+    width: 28rem !important ;
+    border-radius: 10px !important;
+    .know{
+      border-radius: 10px !important;
+    }
+    .teacher-head{
+      border-radius: 10px 10px 0 0 !important;
+    }
+  }
+  .intern{
+    width: 28rem !important ;
+    border-radius: 10px !important;
+    .intern-head{
+      border-radius: 10px 10px 0 0 !important;
+    }
+    .know{
+      border-radius: 10px !important;
+    }
+  }
  
 }
 @media only screen and (min-width: 720px){
@@ -12,12 +33,12 @@
 @media only screen and (min-width: 1281px){
  
   .teacher{
-      width: 50rem !important;
-      margin-left: 8rem !important;
+      width: 60rem !important;
+      
   }
   .intern{
-      width: 50rem !important;
-      margin-right: 8rem !important;
+      width: 60rem !important;
+     
   }
 }
 @media only screen and (min-width : 1367){
@@ -46,11 +67,9 @@
   }
 .teacher{
   background-color: #EF4E74;
-  width: 35%;
+  width: 50rem;
   height: 50%;
-  margin-top: 6rem;
-  margin-left: 10rem;
-  float: left;
+  margin: 6rem auto;
   border-radius: 36px;
   box-shadow: 0 25px 30px #0000004D;
 
@@ -80,11 +99,9 @@
 
 .intern{
   background-color: #FFBD2F;
-  float: right;
-  width: 35%;
+  width: 50rem;
   height: 50%;
-  margin-top: 6rem;
-  margin-right: 10rem;
+  margin: 6rem auto;
   border-radius: 36px;
   box-shadow: 0 25px 30px #0000004D;
 

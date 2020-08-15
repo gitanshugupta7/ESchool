@@ -1,166 +1,70 @@
-@import url('https://fonts.google.com/specimen/Pacifico#standard-styles');
+@font-face {
+  font-family: Pacifico;
+  src: url(../../../assets/Pacifico-Regular.ttf);
+}
 
 @media only screen and (max-width: 719px) {
  
 }
 @media only screen and (min-width: 720px){
-  .yifHead{
-    font-size: 3rem !important;
-  }
-  .members{
-    margin-left: 39rem !important;
-  }
+ 
 }
 @media only screen and (min-width: 1024px){
   
-  .members{
-    margin-left: 56rem !important;
-  }
+
 }
 @media only screen and (min-width: 1281px){
   
-  .foundation{
-    width: 35rem !important;
-  }
-  .members{
-    width: 35rem !important;
-    margin-left: 46rem !important;
-  }
-  .developers{
-    width: 35rem !important;
-  }
-  .bottom-right{
-    margin-left: 18rem !important;
-  }
+ 
 }
 @media only screen and (min-width : 1367){
 
 }
-
-
 .container{
-    max-width: 1440px;
+  max-width: 1440px;
 }
-
 .myHead{
     font-size: 10rem;
     font-family: Pacifico;
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
+}
+.hline {
+  margin-top: 1%;
+  width: 98%;
+  height: 0.5rem solid;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #707070;
+  opacity: 1;
+}
 
-  .hline {
-    margin-top: 1%;
-    width: 98%;
-    height: 0.5rem solid;
-    box-shadow: 0px 3px 6px #00000029;
-    border: 1px solid #707070;
-    opacity: 1;
-  }
+.yifmembers{
+  width: 30rem;
+  height: 25rem;
+  border-radius: 35px;
+  box-shadow: 0 25px 30px #0000002c;
+  margin: 20rem auto;
+}
 
-.foundation{
-    position: relative;
-    background-color: #FFFFFF;
-    width: 30rem;
-    height: 25rem;
-    float: right;
-    margin-top: 5rem;
-    margin-right: 3rem;
-    border-radius: 35px;
-    box-shadow: 0 25px 30px #0000004D;
-  
-    .yifHead{
-      font-family: Pacifico;
-      font-size: 3.75rem;
-      align-items: flex-end !important;
-    }
-  
-    .found-img{
-      position: relative;
-      margin-top: 2rem;
-      width: 10rem;
-      height: 12rem;
-      align-items: center;
-    }
-  
-    .bottom-right{
-      position: relative;
-      margin-left: 13rem;
-    }
-  }
-  
-  .members{
-    position: relative;
-    background-color: #FFFFFF;
-    width: 30rem;
-    height: 25rem;
-    float: left;
-    margin-top: 18rem;
-    margin-left: 60rem;
-    border-radius: 35px;
-    box-shadow: 0 25px 30px #0000004D;
-  
-    .membersHead{
-      font-family: Pacifico;
-      font-size: 3.75rem;
-    }
-  
-    .member-img{
-        position: relative;
-        margin-top: 1rem;
-        width: 15rem;
-        height: 12rem;
-        align-items: center;
-    }
-  
-    .bottom-right{
-      position: relative;
-      margin-bottom: 1rem;
-      margin-left: 13rem;
-    }
-  }
-  
-  .developers{
-    position: relative;
-    background-color: #FFFFFF;
-    width: 30rem;
-    height: 25rem;
-    float: right;
-    margin-top: 6rem;
-    margin-right: 3rem;
-    margin-bottom: 3rem;
-    border-radius: 35px;
-    box-shadow: 0 25px 30px #0000004D;
-  
-    .developersHead{
-      font-family: Pacifico;
-      font-size: 3.75rem;
-    }
-  
-    .developer-img{
-        position: relative;
-        margin-top: 1rem;
-        width: 14rem;
-        height: 12rem;
-        align-items: center;
-    }
-  
-    .bottom-right{
-      position: relative;
-      margin-bottom: 1rem;
-      margin-left: 13rem;
-    }
-  }
-  
-  .know{
-      padding: 1rem;
-      font-family: SF Pro Display;
-      font-weight: lighter;
-      font-size: 2rem;
-      border: none;
-      border-radius: 2rem;
-      background-color: #FFFFFF;
-      box-shadow: 0px 10px 15px #00000029;
-      opacity: 1;
-      outline: none !important;
-  }
+.yiffoundation{
+  width: 30rem;
+  height: 25rem;
+  border-radius: 35px;
+  box-shadow: 0 25px 30px #0000002c;
+  margin: 5rem auto
+}
+
+.yifdevelopers{
+  width: 30rem;
+  height: 25rem;
+  border-radius: 35px;
+  box-shadow: 0 25px 30px #0000002c;
+  margin: 5rem auto;
+}
+.imgmembers{
+    /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
