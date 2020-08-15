@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-course-description',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./course-description.component.scss']
 })
 export class CourseDescriptionComponent implements OnInit {
+  @Output() goToHome=new EventEmitter();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  gotohome(){
+    this.goToHome.emit();
+
   }
 
 }

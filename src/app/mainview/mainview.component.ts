@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-mainview',
@@ -6,10 +6,20 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mainview.component.scss']
 })
 export class MainviewComponent implements OnInit {
+  rendermain:boolean=true;
+  message:String;
+  @Output() changed=new EventEmitter();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  toggleBoolean(data){
+    this.rendermain=false;
+    this.message=data;
+    this.changed.emit();
+    
+    
   }
 
 }

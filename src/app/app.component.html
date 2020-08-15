@@ -1,1 +1,10 @@
-<app-mainview></app-mainview>
+<!-- <app-mainview></app-mainview> -->
+
+<!-- {{toggleviews}} -->
+<div *ngIf="toggleviews; then rendermain else renderclasses"></div>
+<ng-template #rendermain>
+    <app-mainview (changed)="setToggle()"></app-mainview>
+</ng-template>
+<ng-template #renderclasses>
+    <app-course-description (goToHome)="setToggle()"></app-course-description>
+</ng-template>
