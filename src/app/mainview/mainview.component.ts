@@ -17,7 +17,7 @@ export class MainviewComponent implements OnInit {
   toggleBoolean(data){
     this.rendermain=false;
     this.message=data;
-    this.changed.emit();
+    this.changed.emit(data);
     
     
   }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-contactus',
@@ -6,10 +6,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./contactus.component.scss']
 })
 export class ContactusComponent implements OnInit {
+  @Output() someEventClicked=new EventEmitter();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  someEvent(data){
+    this.someEventClicked.emit(data);
+
   }
 
 }
