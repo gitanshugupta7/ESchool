@@ -1,0 +1,142 @@
+@import url('https://fonts.google.com/specimen/Pacifico#standard-styles');
+
+$primary: #FFFFFF;
+
+@media only screen and (max-width: 719px) {
+  html{
+      font-size: 40% !important;
+  }
+}
+@media only screen and (min-width: 720px){
+  html{
+      font-size: 50% !important;
+  }
+  .member{
+    margin-left: 7rem !important;
+    width: 45rem !important;
+  }
+  .member-content{
+    .head2{
+      font-size: 7rem !important;
+    }
+  }
+}
+@media only screen and (min-width: 1024px){
+  html{
+      font-size: 50% !important;
+  }
+
+  .member{
+    margin-left: 10rem !important;
+    width: 45rem !important;
+  }
+}
+@media only screen and (min-width: 1281px){
+  html{
+      font-size: 60% !important;
+  }
+  
+}
+@media only screen and (min-width : 1367){
+  html{
+      font-size: 70% !important;
+  }
+}
+body{
+    background-color: #EFF4FC;
+  }
+  
+  .container{
+    max-width: 1440px;
+  }
+    
+  .myHead{
+      font-size: 8rem;
+      font-family: Pacifico;
+
+      .hline {
+        margin-top: 1%;
+        width: 98%;
+        height: 0.5rem solid;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 1px solid #707070;
+        opacity: 1;
+      }
+    }
+
+    .member{
+      background-color: #EF4E74;
+      width: 45rem;
+      height: 53rem;
+      margin-top: 4rem;
+      margin-left: 10rem;
+      float: left;
+      border-radius: 36px;
+      box-shadow: 0 25px 30px #0000004D;
+    
+      .member-head{
+        background-color: #6A61C5;
+        width: 100%;
+        height: 8.6rem;
+        border-radius: 36px 36px 0 0;
+      }
+
+      .enteries{
+        outline: none;
+        margin-left: 4rem;
+        margin-top: 4rem;
+        width: 30rem;
+
+        .hline {
+          width: 55rem !important;
+          box-shadow: 0px 10px 6px #00000029;
+          border: 1px solid #FFFFFF;
+          opacity: 1;
+          margin-top: -1rem;
+        }
+      }
+
+      .btn{
+        background-color: #FFFFFF;
+        font-size: 3rem;
+        font-family: Pacifico;
+        box-shadow: 0px 10px 15px #00000029;
+        border-radius: 30px;
+        opacity: 1;
+        padding: 1rem;
+        width: 15rem;
+        margin-top: 3rem;
+        margin-left: 10rem;
+      }
+    }
+
+    .info{
+      font-size: 2rem;
+      outline: none;
+      color: #FFFFFF;
+    }
+
+    ::placeholder{
+      color: lighten($primary, 20%);
+    }
+
+    .member-content{
+      float: right;
+      margin-right: 10rem;
+      margin-top: 1rem;
+
+      .head2{
+        font-family: Pacifico;
+        font-size: 8rem;
+      }
+
+      .hline {
+        margin-top: 1%;
+        width: 24rem;
+        height: 0.5rem solid;
+        box-shadow: 0px 3px 6px #00000029;
+        border: 2px solid #707070;
+        opacity: 1;
+        float: left;
+      }
+    }
