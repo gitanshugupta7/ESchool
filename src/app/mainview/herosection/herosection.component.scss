@@ -11,10 +11,14 @@ $primaryFont :pacifico;
     .item__third { 
         margin: 0 0 5rem 0 !important;
     }
-    .navbar-brand{
-        padding: 2rem !important;
-        font-size: 3rem !important;
-     }
+    .navhide{
+        .navbar{
+         .navbar-brand{
+            padding: 2.3rem !important;
+            font-size: 4rem !important;
+          }
+        }
+    }
 }
 @media only screen and (min-width: 720px){
    
