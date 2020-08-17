@@ -6,6 +6,14 @@ $primary: #FFFFFF;
   html{
       font-size: 40% !important;
   }
+  .navbar-brand{
+    padding: 2rem !important;
+    font-size: 3rem !important;
+ }
+ .info-img{
+   width: 2rem;
+   height: 2rem;
+ }
 }
 @media only screen and (min-width: 720px){
   html{
@@ -13,7 +21,7 @@ $primary: #FFFFFF;
   }
   .member{
     margin-left: 7rem !important;
-    width: 45rem !important;
+    width: 30rem !important;
   }
   .member-content{
     .head2{
@@ -35,7 +43,6 @@ $primary: #FFFFFF;
   html{
       font-size: 60% !important;
   }
-  
 }
 @media only screen and (min-width : 1367){
   html{
@@ -50,20 +57,50 @@ body{
     max-width: 1440px;
   }
     
-  .myHead{
-      font-size: 8rem;
-      font-family: Pacifico;
-
-      .hline {
-        margin-top: 1%;
-        width: 98%;
-        height: 0.5rem solid;
-        box-shadow: 0px 3px 6px #00000029;
-        border: 1px solid #707070;
-        opacity: 1;
-      }
+  .navbar-brand{
+    font-family: Pacifico;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-left: 1%;
+    &:hover{
+      text-shadow: 0 0 3px #1F252BF7;
     }
+  }
 
+  .nav-link{
+    margin: .5rem 1.5rem;
+    font-weight: 100%;
+  }
+  
+  .items{
+    font-family: Pacifico;
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0;
+
+    &:hover{
+      background: #ECECEC;
+      width: auto;
+    }
+  }
+
+  .logo{
+    width: 4rem;
+    height: 4rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+  }
+
+  .hline {
+    margin-top: -5px;
+    width: 98%;
+    height: 0.5rem solid;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #707070;
+    opacity: 1;
+  }
+  
     .member{
       background-color: #EF4E74;
       width: 45rem;
@@ -79,6 +116,14 @@ body{
         width: 100%;
         height: 8.6rem;
         border-radius: 36px 36px 0 0;
+        
+        .head-text{
+          text-align: center;
+          font-size: 4rem;
+          font-weight: 100%;
+          font-family: Pacifico;
+          padding-top: 0.5rem;
+        }
       }
 
       .enteries{
@@ -88,11 +133,12 @@ body{
         width: 30rem;
 
         .hline {
-          width: 55rem !important;
+          width: 50rem;
           box-shadow: 0px 10px 6px #00000029;
           border: 1px solid #FFFFFF;
           opacity: 1;
           margin-top: -1rem;
+          margin-right: -1rem;
         }
       }
 
@@ -111,8 +157,8 @@ body{
     }
 
     .info{
+      width: 28rem;
       font-size: 2rem;
-      outline: none;
       color: #FFFFFF;
     }
 
@@ -122,7 +168,7 @@ body{
 
     .member-content{
       float: right;
-      margin-right: 10rem;
+      margin-left: 15rem;
       margin-top: 1rem;
 
       .head2{

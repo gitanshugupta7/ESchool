@@ -1,26 +1,56 @@
 <div class="container">
-    <div class="myHead">
-        contact us
-        <hr class="hline"/>
-    </div>
-    
-    <div class="member">
+  <div class="navOnStart container"> 
+    <nav class="navbar navbar-light navbar-expand-lg bg-transparent ml-auto">
+      <a class="navbar-brand" href="#">e school</a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item items ">
+              <a class="nav-link" href="#classes">classes </a>
+            </li>
+            <li class="nav-item items">
+              <a class="nav-link" href="#features">features</a>
+            </li>
+            <li class="nav-item items">
+              <a class="nav-link" href="#contactus">contact us</a>
+            </li>
+            <li class="nav-item items">
+              <a class="nav-link " href="#aboutus">about us</a>
+            </li>
+            <li class="nav-item ">
+              <img src="assets/logo1.png" class="logo" alt=""/>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <hr class="hline"/>
+  </div>
+  <div class="row">
+    <div class="member col-md-3.5">
         <div class="member-head">
+          <p class="head-text">Contact Us</p>
         </div>
         <form>
         <div class="enteries form-group row">
           <label class="col-sm-2">
-            <img src="../../../assets/mail.png" alt="mail">
+            <img src="../../../assets/mail.png" alt="mail" class="info-img">
           </label>
-          <div class="col-sm-10">
+
+          <div class="col-sm-10" style="text-align: center;">
             <input type="text" class="form-control-plaintext info" id="staticEmail2" name="Email Address" placeholder="Email Address"><br/>
           </div>
-          <hr class="hline"/>
+
+          <hr class="hline" style="width: 100%;"/>
         </div>
           
         <div class="enteries form-group row">
           <label class="col-sm-2">
-            <img src="../../../assets/phone.png" alt="phone">
+            <img src="../../../assets/phone.png" alt="phone" class="info-img">
           </label>
           <div class="col-sm-10">
             <input type="text" class="form-control-plaintext info" name="Phone number" placeholder="Phone number"><br/>
@@ -30,7 +60,7 @@
         
         <div class="enteries form-group row">
           <label class="col-sm-2">
-            <img src="../../../assets/question.png" alt="question">
+            <img src="../../../assets/question.png" alt="question" class="info-img">
           </label>
           <div class="col-sm-10">
             <input type="text" class="form-control-plaintext info" name="Queries" placeholder="Queries(if any)"><br/>
@@ -41,13 +71,13 @@
         </div>
 
         <div>
-          <button type="submit" href="#" class="btn">Submit</button>
+          <button type="submit" href="#" class="btn" style="align-content: center;">Submit</button>
         </div>
         </form>
         
     </div>
 
-    <div class="member-content">
+    <div class="member-content col-md-6.5">
       <div class="head2">
         Be a Member!
       </div>
@@ -56,5 +86,5 @@
 
       <div></div>
     </div>
-
+  </div>
 </div>

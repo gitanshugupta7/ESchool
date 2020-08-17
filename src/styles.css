@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@media only screen and (max-width: 719px) {
+  html {
+    font-size: 30% !important;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  html {
+    font-size: 40% !important;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  html {
+    font-size: 50% !important;
+  }
+}
+
+@media only screen and (min-width: 1281px) {
+  html {
+    font-size: 62.5% !important;
+  }
+}
+
+@media only screen and (min-width: 1367) {
+  html {
+    font-size: 70% !important;
+  }
+}
+
+html {
+  background-color: #EFF4FC;
+}
+
+body {
+  background-color: #EFF4FC;
+}
+/*# sourceMappingURL=styles.css.map */
