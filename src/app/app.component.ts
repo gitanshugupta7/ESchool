@@ -18,6 +18,7 @@ export class AppComponent {
   setToggle(data){
     this.toggleviews=!this.toggleviews;
     this.message=data;
+    
   }
 
 }

@@ -8,6 +8,8 @@ import { AboutusComponent} from './mainview/aboutus/aboutus.component';
 import { CourseDescriptionComponent } from './course-description/course-description.component';
 import { MemberPageComponent } from './member-page/member-page.component';
 import { DeveloperPageComponent } from './developer-page/developer-page.component';
+import { InternsComponent } from './contact_us/interns/interns.component';
+import { MembersComponent } from './contact_us/members/members.component';
 
 const routes: Routes = [
 
@@ -16,9 +18,11 @@ const routes: Routes = [
   { path: 'features', component: FeatureComponent, },
   { path: 'contact', component: ContactusComponent, },
   { path: 'about', component: AboutusComponent, },
-  { path: 'coursediscription', component:CourseDescriptionComponent, },
+  { path: 'coursedescription', component:CourseDescriptionComponent, },
   { path: 'memberpage', component:MemberPageComponent, },
-  { path: 'developerpage', component:DeveloperPageComponent, }, 
+  { path: 'developerpage', component:DeveloperPageComponent},
+  {   path:'members',component:MembersComponent }, 
+  {path:'interns',component:InternsComponent},
   
 ];
 
