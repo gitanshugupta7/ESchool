@@ -25,6 +25,19 @@ $primary: #FFFFFF;
    margin-top: 6rem !important;
    margin-left: 24rem !important;
  }
+ .enteries{
+  position: relative !important;
+  outline: none !important;
+  margin-left: 4rem !important;
+  margin-top: 4rem !important;
+  width: 30rem !important;
+
+  .hline {
+    position: relative !important;
+    width: 35rem !important;
+    margin-right: -7rem;
+  }
+}
 }
 @media only screen and (min-width: 720px){
   html{
@@ -43,28 +56,47 @@ $primary: #FFFFFF;
   .member-content{
     margin-right: -20rem;
   }
+  .btn{
+    margin-left: 12rem !important;
+  }
 }
 @media only screen and (min-width: 1024px){
   html{
       font-size: 50% !important;
   }
-
+  .enteries{
+    .hline{
+      position: relative;
+      width: 45rem !important;
+      margin-right: -6rem;
+    }
+  }
   .member{
     margin-left: 10rem !important;
     width: 45rem !important;
   }
   .member-content{
     margin-top: 2rem !important;
+    margin-right: -20rem;
+  }
+  .btn{
+    margin-left: 15rem !important;
   }
 }
 @media only screen and (min-width: 1281px){
   html{
       font-size: 60% !important;
   }
+  .member-content{
+    margin-right: -20rem;
+  }
 }
 @media only screen and (min-width : 1367){
   html{
       font-size: 70% !important;
+  }
+  .member-content{
+    margin-right: -20rem;
   }
 }
 body{
@@ -146,19 +178,21 @@ body{
       }
 
       .enteries{
-        display: inline-flex;
+        display: flex;
+        position: relative;
         outline: none;
         margin-left: 4rem;
         margin-top: 4rem;
         width: 30rem;
 
         .hline {
-          width: 50rem;
+          position: relative;
+          width: 45rem;
           box-shadow: 0px 10px 6px #00000029;
           border: 1px solid #FFFFFF;
           opacity: 1;
           margin-top: -1rem;
-          margin-right: -1rem;
+          text-align: center;
         }
       }
 
@@ -173,13 +207,13 @@ body{
         padding: 1rem;
         width: 15rem;
         margin-top: 3rem;
-        margin-left: 10rem;
+        margin-left: 17rem;
       }
     }
 
     .info{
+      outline: none;
       position: relative;
-      width: 28rem;
       font-size: 2rem;
       color: #FFFFFF;
     }
