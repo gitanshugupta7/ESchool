@@ -6,19 +6,42 @@ $primary: #FFFFFF;
   html{
       font-size: 40% !important;
   }
+  .navbar-brand{
+    padding: 2rem !important;
+    font-size: 3rem !important;
+ }
+ .info-img{
+   width: 3rem !important;
+   height: 3rem !important;
+ }
+ .member{
+   position: relative;
+   width: 50rem !important;
+   align-content: center !important;
+   height: 64rem !important;
+   margin-left: 27rem !important;
+ }
+ .member-content{
+   margin-top: 6rem !important;
+   margin-left: 24rem !important;
+ }
 }
 @media only screen and (min-width: 720px){
   html{
-      font-size: 50% !important;
+      font-size: 45% !important;
+  }
+  .info-img{
+    width: 3rem !important;
+    height: 3rem !important;
   }
   .member{
-    margin-left: 7rem !important;
-    width: 45rem !important;
+    width: 40rem !important;
+  }
+  .head2{
+    font-size: 6rem !important;
   }
   .member-content{
-    .head2{
-      font-size: 7rem !important;
-    }
+    margin-right: -20rem;
   }
 }
 @media only screen and (min-width: 1024px){
@@ -30,12 +53,14 @@ $primary: #FFFFFF;
     margin-left: 10rem !important;
     width: 45rem !important;
   }
+  .member-content{
+    margin-top: 2rem !important;
+  }
 }
 @media only screen and (min-width: 1281px){
   html{
       font-size: 60% !important;
   }
-  
 }
 @media only screen and (min-width : 1367){
   html{
@@ -93,8 +118,9 @@ body{
     border: 1px solid #707070;
     opacity: 1;
   }
-
+  
     .member{
+      position: relative;
       background-color: #EF4E74;
       width: 45rem;
       height: 53rem;
@@ -109,32 +135,35 @@ body{
         width: 100%;
         height: 8.6rem;
         border-radius: 36px 36px 0 0;
-      }
-
-      .head-text{
-        text-align: center;
-        font-size: 4rem;
-        font-weight: 100%;
-        font-family: Pacifico;
-        padding-top: 0.5rem;
+        
+        .head-text{
+          text-align: center;
+          font-size: 4rem;
+          font-weight: 100%;
+          font-family: Pacifico;
+          padding-top: 0.5rem;
+        }
       }
 
       .enteries{
+        display: inline-flex;
         outline: none;
         margin-left: 4rem;
         margin-top: 4rem;
         width: 30rem;
 
         .hline {
-          width: 55rem !important;
+          width: 50rem;
           box-shadow: 0px 10px 6px #00000029;
           border: 1px solid #FFFFFF;
           opacity: 1;
           margin-top: -1rem;
+          margin-right: -1rem;
         }
       }
 
       .btn{
+        position: relative;
         background-color: #FFFFFF;
         font-size: 3rem;
         font-family: Pacifico;
@@ -149,8 +178,9 @@ body{
     }
 
     .info{
+      position: relative;
+      width: 28rem;
       font-size: 2rem;
-      outline: none;
       color: #FFFFFF;
     }
 
@@ -160,7 +190,7 @@ body{
 
     .member-content{
       float: right;
-      margin-right: 10rem;
+      margin-left: 15rem;
       margin-top: 1rem;
 
       .head2{
