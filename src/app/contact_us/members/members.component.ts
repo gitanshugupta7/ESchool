@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-members',
@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./members.component.scss']
 })
 export class MembersComponent implements OnInit {
+  @Output() goToHome=new EventEmitter();
 
   constructor() { }
 
   ngOnInit(): void {
+  }
+  gotohome(){
+    this.goToHome.emit();
   }
 
 }
