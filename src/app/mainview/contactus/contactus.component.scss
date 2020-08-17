@@ -1,25 +1,27 @@
+$borederRadius : 3.5rem;
+$borederRadiusButoon : 2rem;
 @import url('https://fonts.google.com/specimen/Pacifico#standard-styles');
 
 @media only screen and (max-width: 719px) {
 
   .teacher{
     width: 28rem !important ;
-    border-radius: 10px !important;
+    border-radius: $borederRadius !important;
     .know{
-      border-radius: 10px !important;
+      border-radius: $borederRadius !important;
     }
     .teacher-head{
-      border-radius: 10px 10px 0 0 !important;
+      border-radius: $borederRadius $borederRadius 0 0 !important;
     }
   }
   .intern{
     width: 28rem !important ;
-    border-radius: 10px !important;
+    border-radius: $borederRadius !important;
     .intern-head{
-      border-radius: 10px 10px 0 0 !important;
+      border-radius: $borederRadius $borederRadius 0 0 !important;
     }
     .know{
-      border-radius: 10px !important;
+      border-radius: $borederRadius !important;
     }
   }
  
@@ -49,13 +51,13 @@
 }
 
 .hline {
-    margin-top: 1%;
-    width: 98%;
-    height: 0.5rem solid;
-    box-shadow: 0px 3px 6px #00000029;
-    border: 1px solid #707070;
-    opacity: 1;
-  }
+  margin-top: 1%;
+  width: 98%;
+  height: 0.5rem solid;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #707070;
+  opacity: 1;
+}
 .myHead{
     font-size: 10rem;
     font-family: Pacifico;
@@ -70,7 +72,7 @@
   width: 50rem;
   height: 50%;
   margin: 6rem auto;
-  border-radius: 36px;
+  border-radius: $borederRadius;
   box-shadow: 0 25px 30px #0000004D;
 
   .know{
@@ -83,7 +85,7 @@
     margin-right: 3rem;
     margin-bottom: 2rem;
     border: none;
-    border-radius: 20px;
+    border-radius: $borederRadiusButoon;
     box-shadow: 0px 10px 15px #00000029;
     opacity: 1;
     outline: none !important;
@@ -93,7 +95,7 @@
     background-color: #6A61C5;
     width: 100%;
     height: 8.6rem;
-    border-radius: 36px 36px 0 0;
+    border-radius: $borederRadius $borederRadius 0 0;
   }
 }
 
@@ -102,14 +104,14 @@
   width: 50rem;
   height: 50%;
   margin: 6rem auto;
-  border-radius: 36px;
+  border-radius: $borederRadius;
   box-shadow: 0 25px 30px #0000004D;
 
   .intern-head{
     background-color: #6A61C5;
     width: 100%;
     height: 8.6rem;
-    border-radius: 36px 36px 0 0;
+    border-radius: $borederRadius $borederRadius 0 0;
   }
 
   .know{
@@ -122,7 +124,7 @@
     margin-right: 3rem;
     margin-bottom: 2rem;
     border: none;
-    border-radius: 20px;
+    border-radius: $borederRadiusButoon;
     box-shadow: 0px 10px 15px #00000029;
     opacity: 1;
     outline: none !important;
