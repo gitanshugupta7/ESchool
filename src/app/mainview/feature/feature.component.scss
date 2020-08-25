@@ -268,6 +268,18 @@ $borederRadius : 3.5rem;
       box-shadow: 0px 30px 40px #00000029;
       border-radius: $borederRadius;
       opacity: 1;
+      .notes{
+        position: absolute;
+        margin: 6rem;
+        .notes-head{
+          font-weight: 700;
+          margin-bottom: 2rem;
+        }
+        .notes-text{
+          font-size: 1.5rem;
+          color: white;
+        }
+      }
     }
     .mid-div {
       position: relative;
@@ -279,6 +291,17 @@ $borederRadius : 3.5rem;
       box-shadow: 0px 25px 35px #0000004d;
       border-radius: $borederRadius;
       opacity: 1;
+        .weekly-head{
+          margin: 6rem 1rem 4rem 1rem;
+          font-weight: 700;
+        }
+        .weekly{     
+           margin: 4rem 2rem 1rem 2rem; 
+            .weekly-text{
+              font-size: 1.5rem;
+          color: white;
+            }
+        }
       // z-index: -1;
     }
     .bottom-right-div {
@@ -307,6 +330,9 @@ $borederRadius : 3.5rem;
     box-shadow: 0px 30px 40px #00000029;
     border-radius:$borederRadius;
     opacity: 1;
+      .notes{
+        margin-top: 10rem !important;
+      }
   }
   .mid-div {
     position: relative;
