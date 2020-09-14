@@ -21,8 +21,8 @@ const routes: Routes = [
   { path: 'coursedescription', component:CourseDescriptionComponent, },
   { path: 'memberpage', component:MemberPageComponent, },
   { path: 'developerpage', component:DeveloperPageComponent},
-  {   path:'members',component:MembersComponent }, 
-  {path:'interns',component:InternsComponent},
+  { path:'members',component:MembersComponent }, 
+  { path:'interns',component:InternsComponent},
   
 ];
 

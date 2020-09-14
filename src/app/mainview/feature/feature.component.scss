@@ -7,6 +7,8 @@ $borederRadius : 3.5rem;
     font-family: SF;
     src: url(../../../assets/FontsFree-Net-SFProDisplay-Regular.ttf);
   }
+
+  
   @media only screen and (max-width:500px){
     .top-left-div {
       margin-top: 4rem;
@@ -31,6 +33,7 @@ $borederRadius : 3.5rem;
         .text{
           font-size: 1.5rem;
           color: white;
+          
         }
       }
     }
